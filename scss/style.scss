@@ -1,0 +1,73 @@
+//==================Подготовка к вёрстке==================================
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1294px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  padding: 14px 53px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transition: all .3s;
+  
+}
+.button:hover {
+  transform: scale(1.03);
+}
+//==================Вёрстка=========================
+.header{}
+.header_top-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+.header__logo {
+}
+.header__nav {
+  display: flex;
+  background: lightblue;
+
+}
+
+.header__nav-item {
+  margin-right: 33px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+text-transform: uppercase;
+}
+.header__nav-item:last-child{
+  margin: 0;
+}
+.header__info {
+  
+}
+.header__info-item {
+  margin-right: 16px;
+}
+.header__info-item :last-child{
+  margin: 0;
+}
+.
+
+
+
